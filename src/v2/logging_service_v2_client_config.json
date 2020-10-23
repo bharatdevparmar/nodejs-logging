@@ -35,10 +35,10 @@
           "retry_codes_name": "deadline_exceeded_internal_unavailable",
           "retry_params_name": "default",
           "bundling": {
-            "element_count_threshold": 2000,
-            "request_byte_threshold": 524288,
-            "delay_threshold_millis": 100,
-            "element_count_limit": 2000000
+            "element_count_threshold": 3000,
+            "request_byte_threshold": 786432,
+            "delay_threshold_millis": 150,
+            "element_count_limit": 3000000
           }
         },
         "ListLogEntries": {
